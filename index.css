@@ -1,24 +1,39 @@
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
     font-family: "Poppins", serif;
 }
 
-ul{
+ul {
     list-style: none;
     font-size: 25px;
     background-color: #6082B6;
-    padding: 80px 200px;
+    padding: 50px 100px;
     border-radius: 40px;
 }
-li{
+
+li {
     padding: 20px;
-}
-li:hover{
     cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #6082B6;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
