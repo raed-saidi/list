@@ -13,6 +13,11 @@ const colors = [
 ];
 
 body.addEventListener("click", (e) => {
-  const randomColor = colors[Math.floor(Math.random() * colors.length)];
-  e.target.style.color = randomColor;
+  if(e.target.tagName=="LI"){
+    const randomColor=getRandomColor();
+    e.target.style.color = randomColor;}
 });
+
+function getRandomColor(){
+  return colors[Math.floor(Math.random() * colors.length)];
+}
