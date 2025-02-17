@@ -37,3 +37,15 @@ footer {
     justify-content: center;
     gap: 10px;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        li {
+            padding: 5px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        
+      
+    }
+  }
+  
